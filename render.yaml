@@ -3,7 +3,3 @@ services:
   name: gitpod-openvscode-server-example
   env: docker
   repo: https://github.com/amirtds/gitpod-openvscode-server.git
-  disk:
-    name: data
-    mountPath: /home/workspace
-    sizeGB: 1
